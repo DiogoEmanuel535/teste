@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    //Declaração de Variaveis
+    cadeia nome, sobrenome, nome_sobrenome, sobrenome_nome
+
+    //Entrade de Dados
+    escreva("Insira seu nome ")
+    leia("nome")
+    escreva("Insira seu sobrenome ")
+    leia("sobrenome")
+
+    //Processamento
+    nome_sobrenome=nome+sobrenome
+
+
+    //Saida de Dados
+    escreva("Seu nome é:nome_sobrenome")
+  }
