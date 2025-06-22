@@ -1,0 +1,29 @@
+programa {
+  funcao inicio() {
+    // Declaração de variáveis
+    inteiro num1, num2, soma, subtracao, multiplicacao, quociente, resto,divisao
+   
+    // Entrada de dados
+    escreva("Digite o primeiro número inteiro: ")
+    leia(num1)
+    escreva("Digite o segundo número inteiro: ")
+    leia(num2)
+
+    // Processamento
+    soma = num1 + num2
+    subtracao = num1 - num2
+    multiplicacao = num1 * num2
+    divisao = num1 / num2
+    quociente = num1 / num2
+    resto = num1 % num2
+
+    // Saída de dados
+    escreva("\nResultados:\n")
+    escreva("Soma: ", soma, "\n")
+    escreva("Subtração: ", subtracao, "\n")
+    escreva("Multiplicação: ", multiplicacao, "\n")
+    escreva("Divisão: ", divisao, "\n")
+    escreva("Quociente inteiro: ", quociente, "\n")
+    escreva("Resto da divisão: ", resto, "\n")
+  }
+}
