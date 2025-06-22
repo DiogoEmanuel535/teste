@@ -11,13 +11,13 @@ programa {
      escreva("Insirar sua Altura ")
      leia(altura)
 
-     //Processo
+    //Processo
 
-     peso_ideal=(k*altura)-B
+    peso_ideal=(k*altura)-B
 
-     //Saida
+    //Saida de Dados
 
-     escreva("O peso ideal da Lenda é: ", peso_ideal)
+    escreva("O peso ideal da Lenda é: ", peso_ideal)
 
 
   
