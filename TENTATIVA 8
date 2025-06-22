@@ -1,0 +1,21 @@
+programa {
+    funcao inicio() {
+     // Declaração de variáveis
+     real  primeiro, segundo, terceiro
+
+     // Declaração de Constante 
+     const inteiro total = 780000.0
+                    	
+     // Processamento 
+     primeiro = total * 0.46
+     segundo = total * 0.32
+     terceiro = total - (primeiro + segundo)
+
+     // Saída de Dados
+     escreva("Valor total do prêmio: R$", total, "\n")
+     escreva("Primeiro ganhador recebe: R$", primeiro, "\n")
+     escreva("Segundo ganhador recebe: R$", segundo, "\n")
+     escreva("Terceiro ganhador recebe: R$", terceiro)
+         }
+        }
+
