@@ -1,0 +1,80 @@
+programa {
+  funcao inicio() {
+    // Declaração de variáveis
+    cadeia empresa, cnpj, endereco, telefone, email, produto1, produto2, produto3,data, responsavel, assinatura
+    inteiro qtd1, qtd2, qtd3
+    real preco1, preco2, preco3
+    real total1, total2, total3, totalGeral
+
+    // Entrada de dados
+    escreva("Digite o nome da empresa: ")
+    leia(empresa)
+    escreva("Digite o CNPJ: ")
+    leia(cnpj)
+    escreva("Digite o endereço: ")
+    leia(endereco)
+    escreva("Digite o telefone: ")
+    leia(telefone)
+    escreva("Digite o email: ")
+    leia(email)
+	escreva("Digite a Data:")
+	leia(data)
+	escreva("Digite o responsável pelo orçamento(nome e setor):")
+	leia(responsavel)
+	escreva("Digite a sua Assinatura:")
+	leia(assinatura)
+
+    escreva("\n==== Cadastro de Itens ====\n")
+
+    escreva("Descrição do Produto 1: ")
+    leia(produto1)
+    escreva("Quantidade: ")
+    leia(qtd1)
+    escreva("Preço unitário: R$ ")
+    leia(preco1)
+
+    escreva("Descrição do Produto 2: ")
+    leia(produto2)
+    escreva("Quantidade: ")
+    leia(qtd2)
+    escreva("Preço unitário: R$ ")
+    leia(preco2)
+
+    escreva("Descrição do Produto 3: ")
+    leia(produto3)
+    escreva("Quantidade: ")
+    leia(qtd3)
+    escreva("Preço unitário: R$ ")
+    leia(preco3)
+
+    // Processamento 
+    total1 = qtd1 * preco1
+    total2 = qtd2 * preco2
+    total3 = qtd3 * preco3
+    totalGeral = total1 + total2 + total3
+
+    // Saída de Dados
+    escreva("\n===== HOLERITE DE ORÇAMENTO =====\n\n")
+	escreva("\n============Data:",data,"=====================\n\n")
+    escreva("Empresa: ", empresa, "\n")
+    escreva("CNPJ: ", cnpj, "\n")
+    escreva("Endereço: ", endereco, "\n")
+    escreva("Telefone: ", telefone, "\n")
+    escreva("Email: ", email, "\n\n")
+
+    escreva("Itens:\n")
+    escreva("1. ", produto1, " - Qtd: ", qtd1, " - Unit: R$", preco1, " - Total: R$", total1, "\n")
+    escreva("2. ", produto2, " - Qtd: ", qtd2, " - Unit: R$", preco2, " - Total: R$", total2, "\n")
+    escreva("3. ", produto3, " - Qtd: ", qtd3, " - Unit: R$", preco3, " - Total: R$", total3, "\n")
+
+    escreva("\nTOTAL GERAL: R$", totalGeral, "\n\n")
+
+    escreva("Observações:\n")
+    escreva("- Orçamento válido por 10 dias\n")
+    escreva("- Sujeito à disponibilidade em estoque\n")
+    escreva("- Pagamento via transferência ou PIX\n\n")
+
+    escreva("Responsável pelo orçamento:",responsavel,"\n")
+    escreva("Assinatura:",assinatura,"\n")
+  }
+}
