@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+   // Declaração das Variáveis
+   real celsius, fahrenheit
+
+   // Entrada de Dados
+    escreva("Insira a temperatura em graus Celsius: ")
+    leia(celsius)
+
+   // Processamento
+   fahrenheit = celsius * (9.0 / 5.0) + 32.0
+
+   // Saída de Dados
+    escreva("A temperatura em Fahrenheit é: ", fahrenheit)
+  }
+}
