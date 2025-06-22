@@ -17,12 +17,12 @@ programa {
     leia(telefone)
     escreva("Digite o email: ")
     leia(email)
-	escreva("Digite a Data:")
-	leia(data)
-	escreva("Digite o responsável pelo orçamento(nome e setor):")
-	leia(responsavel)
-	escreva("Digite a sua Assinatura:")
-	leia(assinatura)
+    escreva("Digite a Data:")
+    leia(data)
+    escreva("Digite o responsável pelo orçamento(nome e setor):")
+    leia(responsavel)
+    escreva("Digite a sua Assinatura:")
+    leia(assinatura)
 
     escreva("\n==== Cadastro de Itens ====\n")
 
