@@ -1,0 +1,34 @@
+programa
+{
+	funcao inicio ()
+	{
+	//Declaração de Variáveis 
+	real valorInicial ,taxaUSD,taxaEUR,taxaGBP,taxaUSD_EUR
+	real emUSD,emEUR,emGBP,emUSD_EUR
+	//Entrada de Dados
+	escreva("Insira o valor inicial:")
+	leia(valorInicial)
+	escreva("Digite a taxa de câmbio de Real -> Dólar ( BRL -> USD): ")
+    leia(taxaUSD)//No momento de escrevo(5.51)
+    escreva("Digite a taxa de câmbio de Real -> Euro ( BRL -> EUR): ")
+    leia(taxaEUR)//No momento de escrevo(7.42)
+    escreva("Digite a taxa de câmbio de Real -> Libra ( BRL -> GBP): ")
+    leia(taxaGBP)//No momento de escrevo(6.33)
+	escreva("Digite a taxa de câmbio de Dolar -> Euro ( USD -> EUR): ")
+    leia(taxaUSD_EUR)//No momento de escrevo(0.87)
+	
+	//Processamento 
+	emUSD=valorInicial/taxaUSD
+	emEUR=valorInicial/taxaEUR
+	emGBP=valorInicial/taxaGBP
+	//Não Sei ser precisa mas tá ai
+	emUSD_EUR=valorInicial/taxaUSD_EUR
+	
+	//Saiída de Dados
+	escreva("\n  ==Conversão das Moedas== \n")
+	escreva("Em Dólares:",emUSD,"\n")
+	escreva("Em Euros:",emEUR,"\n")
+	escreva("Em Libras Esterlinas:",emGBP,"\n")
+	escreva("Valor de Dólares para Euros:",emUSD_EUR,"\n")
+	}
+}
