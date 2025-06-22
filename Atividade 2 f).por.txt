@@ -1,0 +1,22 @@
+programa
+{
+	funcao inicio ()
+	{
+	//Declaração de Variáveis 
+	real raio, altura,volume
+	
+	//Entrada de Dados
+	escreva("Insira o raio da base:")
+	leia(raio)
+	escreva("Insira a altura da embalagem:")
+	leia(altura)
+	
+	//Processamento
+	
+	volume=3.14159*raio*altura
+	
+	//Saiída de Dados
+	escreva("O Volume da Lata é:", volume)
+		
+	}
+}
